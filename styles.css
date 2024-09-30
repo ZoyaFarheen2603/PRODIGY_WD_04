@@ -1,0 +1,272 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00bcd4; /* Changed to a vibrant teal */
+  }
+  
+  nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffeb3b; /* Bright yellow hover effect */
+  }
+  
+  /* Home Section */
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+    background-color: #e3f2fd; /* Soft blue background */
+  }
+  
+  .home .content h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .home h1 span {
+    color: #ff4081; /* Pink highlight for keywords */
+  }
+  
+  .home p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081; /* Pink button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .home .btn:hover {
+    background-color: #f50057; /* Darker pink hover */
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 250px;
+  }
+  
+  /* About Me Section */
+  .about {
+    padding: 80px 10%;
+    background-color: #fff8e1; /* Light yellow background */
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    color: #ff5722; /* Orange title */
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 80px 10%;
+    background-color: #e8f5e9; /* Light green background */
+  }
+  
+  .projects h2 {
+    font-size: 36px;
+    color: #4caf50; /* Green title */
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    color: #388e3c; /* Darker green for project titles */
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .project .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .project .btn:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    padding: 80px 10%;
+    background-color: #26cfb99f; /* Light green background */
+  }
+  
+  .skills-section h2 {
+    font-size: 36px;
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .skill h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #00bcd4; /* Teal progress bar */
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 80px 10%;
+    background-color: #fff3e0; /* Soft orange background */
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #ff5722;
+  }
+  
+  .btn {
+    background-color: #ff5722; /* Bright orange button */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e64a19; /* Darker orange hover */
+  }
+  
+  /* Social Links */
+  .social-links a {
+    text-decoration: none;
+    color: #ff4081; /* Pink social links */
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #f50057; /* Darker pink on hover */
+  }
+  
